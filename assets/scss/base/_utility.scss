@@ -1,0 +1,20 @@
+.section-heading{
+    position: relative;
+    padding-bottom: 17px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 4px;
+        width: 135px;
+        background-color: #00916c;
+    }
+}
+
+.text-light-ash{
+    color: #5b5c5c67;
+}

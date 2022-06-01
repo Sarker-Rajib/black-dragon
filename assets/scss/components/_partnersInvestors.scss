@@ -1,0 +1,30 @@
+.partners{
+    padding: 50px 0;
+    @media screen and (max-width: 767px) {
+        padding: 20px 0;
+    }
+
+
+    .section-body{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
+        
+        @media screen and (max-width: 1199px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media screen and (max-width: 991px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media screen and (max-width: 576px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .item{
+            padding: 15px 10px;
+        }
+    }
+}

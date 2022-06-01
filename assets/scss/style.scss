@@ -1,0 +1,37 @@
+/*=== abstracts css start === */
+@import 'abstracts/fonts';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+/*===// end of abstracts css === */
+
+
+/*=== base css start === */
+@import 'base/global';
+@import 'base/config';
+@import 'base/utility';
+/*===// end of base css === */
+
+
+/*=== components css start === */
+@import 'components/buttons';
+@import 'components/alephRating';
+@import 'components/basicMetricsStats';
+@import 'components/roadmapCard';
+@import 'components/partnersInvestors';
+@import 'components/teamAdvisor';
+@import 'components/projectLinks';
+/*===// end of components css === */
+
+
+/*=== layouts css start === */
+@import 'layouts/navbar';
+@import 'layouts/footer';
+/*===// end of layouts css === */
+
+
+
+/*=== pages start === */
+
+/*===// end of pages  === */
+
+

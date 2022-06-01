@@ -1,0 +1,25 @@
+.header{
+    .navbar{
+        background: $color-black;
+    
+        .navbar-brand{
+            max-width: 220px;
+        }
+    
+        .navbar-toggler{
+            background: $color-white;
+        }
+    
+        .navbar-nav{
+            .nav-item{
+                &:not(:last-child){
+                    margin-right: 15px;
+                }
+
+                .nav-link{
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}

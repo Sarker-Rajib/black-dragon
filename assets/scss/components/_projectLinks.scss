@@ -1,0 +1,43 @@
+.project-links{
+    padding: 40px 0;
+    @media screen and (max-width: 767px) {
+        padding: 20px 0;
+    }
+
+    .section-body{
+        .links{
+            padding-top: 40px;
+            ul{
+                padding: 0;
+    
+                li{
+                    list-style: none;
+                    margin-right: 10px;
+    
+                    i{
+                        color: $color-black;
+                        font-size: 30px;
+                        width: 60px;
+                        height: 60px;
+                        line-height: 60px;
+                        text-align: center;
+                        border: 1px solid rgba(124, 116, 116, 0.404);
+                        border-radius: 50%;
+
+                        @media screen and (max-width: 575px) {
+                            font-size: 20px;
+                            width: 35px;
+                            height: 35px;
+                            line-height: 35px;
+                        }
+
+                        &:hover {
+                            color: $color-white;
+                            background-color: $color-black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

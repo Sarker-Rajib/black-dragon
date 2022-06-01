@@ -1,0 +1,39 @@
+.aleph-rating{
+    padding: 30px 0;
+
+    .item{
+        text-align: center;
+
+        h6{
+            font-weight: bolder;
+            font-size: 20px;
+        }
+
+        .rating-reasult{
+            max-width: 215px;
+            margin-top: 15px;
+            padding: 10px 0;
+            font-weight: bolder;
+            display: block;
+            color: $color-black;
+            transition: all 0.2s linear;
+
+            &:hover {
+                opacity: 0.8;
+            }
+
+
+            &.hype{
+                background: $color-paste;
+            }
+
+            &.risk{
+                background: $color-light-red;
+            }
+
+            &.overall{
+                background: $color-off-yellow;
+            }
+        }
+    }
+}

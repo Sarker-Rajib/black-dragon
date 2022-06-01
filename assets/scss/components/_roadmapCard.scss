@@ -1,0 +1,16 @@
+.roadmap-card{
+    padding: 15px;
+    border: 1px solid $color-ash;
+
+    .card-head{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .fa-play-circle{
+            padding-right: 10px;
+            font-size: 35px;
+            color: #58baa2;
+        }
+    }
+}

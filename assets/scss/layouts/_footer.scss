@@ -1,0 +1,18 @@
+.footer{
+    background: $color-black;
+    position: relative;
+    padding: 30px 0;
+
+    .up-arrow{
+        position: absolute;
+        right: 1rem;
+        bottom: 1rem;
+        background: #f24e4d;
+
+        i{
+            color: #fff;
+            font-size: 25px;
+            padding: 5px 10px;
+        }
+    }
+}
